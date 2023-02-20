@@ -1,0 +1,22 @@
+.profile {
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.profile .row {
+    display: flex;
+    align-items: center;
+}
+
+.profile .row .col img {
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.profile .row .col {
+    color: rgba(255, 255, 255, 0.808);
+}
