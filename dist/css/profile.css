@@ -20,3 +20,22 @@
 .profile .row .col {
     color: rgba(255, 255, 255, 0.808);
 }
+
+@media screen and (max-width:465px) {
+    .profile .row .col img {
+        width: 100px;
+        margin-right: 0;
+    }
+    .profile .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile .row .col:nth-child(2) h1 {
+        font-size: 24px;
+    }
+
+    .profile .row .col:nth-child(2) p {
+        font-size: 12px;
+    }
+}
