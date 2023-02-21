@@ -80,17 +80,13 @@
 }
 
 @media screen and (max-width:465px) {
-    .profile .row .col img {
-        width: 100px;
-        margin-right: 0;
-    }
     .profile .row {
         flex-direction: column;
         text-align: center;
     }
 
     .profile .row .col:nth-child(2) h1 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .profile .row .col:nth-child(2) p {
