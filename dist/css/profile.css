@@ -113,5 +113,14 @@
 
     .about .row .col:nth-child(2) {
         text-align: center;
+        padding: 10px 0 10px 0;
+    }
+
+    .about .row .col:nth-child(2) h1 {
+        font-size: 25px;
+    }
+
+    .about .row .col:nth-child(2) p {
+        font-size: 12px;
     }
 }   
